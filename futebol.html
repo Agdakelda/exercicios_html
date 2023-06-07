@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+    function pl(){
+            document.write("<br>");
+            document.write("<br>");
+    }
+
+    function printf(frase){
+        document.write(frase);
+        pl();
+
+    }
+
+    var vitorias = parseInt(prompt("Entre com o numero de vitórias: "));
+    var empates =  parseInt( prompt(" Entre com o numero de empates: "));
+    var pontos = (vitorias * 3)+ empates;
+    printf(" os pontos do seu time é: "+ pontos);
+    if  (pontos > 28){
+    printf(" Seu time está melhor que ano passado!");
+}
+    if (pontos < 28){
+    printf("Seu time está pior que ano passado!");
+    }
+
+    if (pontos == 28){
+    printf("Seu time está igual ao ano passado.");
+    }
+printf("FIM");
+
+</script>

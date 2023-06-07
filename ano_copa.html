@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+    function pl(){
+            document.write("<br>");
+            document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pl();
+    }
+var limite =  parseInt(prompt(" Entre com a data Limite"));
+var anoCopa = 1930;
+while(anoCopa<= limite){
+
+    mostra("Teve copa em: " + anoCopa);
+      anoCopa = anoCopa + 4;
+
+}
+alert("Fim");
+    </script>

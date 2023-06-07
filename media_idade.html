@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+    function pl(){
+            document.write("<br>");
+            document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pl();
+    }
+
+    var totalfam = parseInt(prompt("Qtd de familiares: "));
+
+    var nummero= 1;
+    var totalIdade = 0;
+
+    while(numero <= totalfam){
+        
+    var idade = parseInt(prompt("informe a idade do familiar"));
+    totalIdade = totalIdade + idade;
+    nummero++;
+}
+var mediadasIdades = totalIdade/totalfam;
+mostra (" A média das idades é de:" + mediadasIdades);
+
+mostra("Fim");
+
+</script>
